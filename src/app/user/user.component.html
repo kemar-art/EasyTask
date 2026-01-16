@@ -1,8 +1,8 @@
 <div>
     <button (click)="getonSelectUser()">
         <!-- Property binduing by using []-->
-        <img [src]="imagePath()" [alt]="selectedUser().name" />
+        <img [src]="imagePath()" [alt]="name()" />
         <!-- This is string intopolation to display data by using {{ selectedUser.name }}-->
-        <span>{{ selectedUser().name }} </span>
+        <span>{{ name() }} </span>
     </button>
 </div>
